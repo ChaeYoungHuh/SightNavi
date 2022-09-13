@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">보호자용</string>
+<!--    <string name="action_settings">설정</string>-->
+    <string name="action_create_room">방 만들기</string>
+
+    <!--视频通话-->
+    <string name="av_waiting">상대방을 기다리는 중...</string>
+    <string name="av_audio_invite">음성통화 초대</string>
+    <string name="av_video_invite">영상통화 초대</string>
+
+    <string name="title_user">사용자</string>
+    <string name="title_room">회의실</string>
+<!--    <string name="title_setting">설정</string>-->
+
+</resources>

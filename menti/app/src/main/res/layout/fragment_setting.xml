@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="60dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B8F5F4C9"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:padding="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+<!--            <TextView-->
+<!--                android:id="@+id/text_notifications"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/av_bg_call_black"-->
+<!--                android:textSize="20sp"-->
+<!--                android:text="실험용"-->
+<!--                />-->
+            <ImageView
+                android:layout_width="225dp"
+                android:layout_height="127dp"
+                android:background="@drawable/logogo"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="장애인용"
+                android:textSize="25sp"
+                android:fontFamily="@font/regularelice"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+
+                android:id="@+id/intoroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="보호자 연결"
+                android:textSize="20dp"
+                android:background="@color/_xpopup_light_color"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/regularelice"/>
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="블랙박스"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="@font/regularelice"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:gravity="center"-->
+
+<!--                android:paddingTop="10dp"-->
+<!--                />-->
+            <Button
+                android:id="@+id/blackbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="블랙박스 기록 확인"
+                android:textSize="20dp"
+                android:background="@color/_xpopup_light_color"
+                android:fontFamily="@font/regularelice"/>
+            <Button
+                android:id="@+id/tmap"
+                android:background="@color/_xpopup_light_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="길 찾아가기"
+                android:textSize="20dp"
+                android:fontFamily="@font/regularelice"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="+*+"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="@font/regularelice"-->
+<!--                android:textColor="#1E8C50"-->
+<!--                android:gravity="center"-->
+
+<!--                android:paddingTop="30dp"-->
+<!--                />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/exit"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="처음으로"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:fontFamily="@font/regularelice"-->
+<!--                android:background="#6B1E8C50"/>-->
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
