@@ -22,8 +22,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="음성통화로 전환"
-            android:textColor="@android:color/white"
-            android:textSize="10sp" />
+            android:textSize="15dp"
+            android:fontFamily="@font/regularelice"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
@@ -46,7 +47,8 @@
             android:layout_marginTop="5dp"
             android:text="종료"
             android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            android:textSize="15dp"
+            android:fontFamily="@font/regularelice" />
 
     </LinearLayout>
 

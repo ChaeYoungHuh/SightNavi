@@ -32,6 +32,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/regularelice"
                 android:text="종료"
                 android:textColor="@android:color/white" />
 
@@ -56,6 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="통화"
+                android:fontFamily="@font/regularelice"
+                android:textSize="15dp"
                 android:textColor="@android:color/white" />
 
         </LinearLayout>

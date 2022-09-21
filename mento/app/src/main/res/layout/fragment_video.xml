@@ -6,12 +6,12 @@ android:layout_height="match_parent"
 android:background="@android:color/black"
 tools:ignore="MergeRootFrame">
 
-<FrameLayout
+    <FrameLayout
 
-    android:id="@+id/fullscreen_video_view"
-    android:layout_width="match_parent"
-    android:layout_height="540dp"
-    android:layout_gravity="top" />
+        android:id="@+id/fullscreen_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:layout_gravity="top" />
 
 <FrameLayout
     android:id="@+id/pip_video_view"
@@ -47,7 +47,7 @@ tools:ignore="MergeRootFrame">
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/av_default_header" />
+            android:src="@drawable/people" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -60,7 +60,10 @@ tools:ignore="MergeRootFrame">
                 android:id="@+id/nameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="voip"
+                android:text="사용자"
+                android:fontFamily="@font/regularelice"
+                android:textSize="17dp"
+                android:paddingBottom="5dp"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -68,6 +71,7 @@ tools:ignore="MergeRootFrame">
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="상대방을 기다리는 중..."
+                android:fontFamily="@font/regularelice"
                 android:textColor="@android:color/white" />
         </LinearLayout>
     </LinearLayout>

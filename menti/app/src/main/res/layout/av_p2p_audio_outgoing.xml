@@ -12,7 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,6 +40,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="음소거"
+                android:fontFamily="@font/regularelice"
+                android:textSize="15dp"
                 android:textColor="@android:color/white" />
 
         </LinearLayout>
@@ -60,6 +64,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="종료"
+                android:fontFamily="@font/regularelice"
+                android:textSize="15dp"
                 android:textColor="@android:color/white" />
 
         </LinearLayout>
@@ -81,6 +87,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/regularelice"
+                android:textSize="15dp"
                 android:text="스피커"
                 android:textColor="@android:color/white" />
 

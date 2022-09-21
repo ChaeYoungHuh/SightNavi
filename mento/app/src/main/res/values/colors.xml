@@ -3,6 +3,8 @@
     <color name="colorPrimary">#1b82d2</color>       <!--toolbar-->
     <color name="colorPrimaryDark">#1b82d2</color>   <!--status bar-->
     <color name="colorAccent">#1b82d2</color>
+    <color name="green">#9474B79C</color>
+
 
 
     <color name="av_bg_call_black">#281f1d</color>

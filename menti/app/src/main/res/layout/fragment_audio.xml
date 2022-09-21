@@ -7,8 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/minimizeImageView"
@@ -30,23 +29,27 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginTop="80dp"
-                android:src="@drawable/av_default_header" />
+                android:src="@drawable/people" />
 
             <TextView
                 android:id="@+id/nameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="mento"
-                android:textColor="@android:color/white" />
+                android:fontFamily="@font/boldelice"
+                android:text="보호자"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/descTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:fontFamily="@font/regularelice"
                 android:text="음성통화를 거는 중"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
         </LinearLayout>
 
         <!--拨出按钮显示-->

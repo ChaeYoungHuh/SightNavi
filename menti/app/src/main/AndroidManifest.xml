@@ -22,6 +22,7 @@
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
 
     <application
+        android:hardwareAccelerated="true"
         android:name="com.dds.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
