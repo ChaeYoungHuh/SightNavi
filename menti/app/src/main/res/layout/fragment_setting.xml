@@ -46,17 +46,6 @@
                 android:layout_height="60dp"
                 android:background="@drawable/icon" />
 
-            <Button
-
-                android:id="@+id/intoroom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="보호자 연결"
-
-                android:textSize="20dp"
-                android:background="@color/green"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/regularelice"/>
 
 
 <!--            <TextView-->
@@ -71,10 +60,19 @@
 <!--                android:paddingTop="10dp"-->
 <!--                />-->
             <Button
+                android:layout_marginTop="20dp"
                 android:id="@+id/blackbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="블랙박스 기록 확인"
+                android:text="블랙박스"
+                android:textSize="20dp"
+                android:background="@color/_xpopup_light_color"
+                android:fontFamily="@font/regularelice"/>
+            <Button
+                android:id="@+id/detect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AI 장애물 감지"
                 android:textSize="20dp"
                 android:background="@color/_xpopup_light_color"
                 android:fontFamily="@font/regularelice"/>
@@ -83,8 +81,19 @@
                 android:background="@color/_xpopup_light_color"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="길 찾아가기"
+                android:text="네비게이션"
                 android:textSize="20dp"
+                android:fontFamily="@font/regularelice"/>
+            <Button
+
+                android:id="@+id/intoroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="원격 접속"
+
+                android:textSize="20dp"
+                android:background="#FFFFFF"
+
                 android:fontFamily="@font/regularelice"/>
 
 <!--            <TextView-->
