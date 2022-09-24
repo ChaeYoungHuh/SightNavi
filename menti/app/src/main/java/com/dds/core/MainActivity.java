@@ -32,7 +32,7 @@ public class MainActivity extends BaseActivity implements IUserState {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BottomNavigationView navView = findViewById(R.id.nav_view);
+//        BottomNavigationView navView = findViewById(R.id.nav_view);
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
 //                R.id.navigation_user,
@@ -41,7 +41,7 @@ public class MainActivity extends BaseActivity implements IUserState {
         // Action Bar 팔로우 연동 설정
 //        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         // Nav 팔로우 연동 설정
-        NavigationUI.setupWithNavController(navView, navController);
+//        NavigationUI.setupWithNavController(navView, navController);
         // 로그인 상태 콜백 설정
         SocketManager.getInstance().addUserStateCallback(this);
         isFromCall = getIntent().getBooleanExtra("isFromCall", false);
