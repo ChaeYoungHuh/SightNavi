@@ -2,14 +2,19 @@ package com.dds.core.ui.setting;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -40,17 +45,30 @@ public class SettingFragment extends Fragment {
 //        final TextView textView = root.findViewById(R.id.text_notifications);
 //        button = root.findViewById(R.id.exit);
         Button fastin = root.findViewById(R.id.intoroom);
-        Button tmap = root.findViewById(R.id.tmap);
+        Button demo = root.findViewById(R.id.demo);
+
+
+        VideoView videoView = root.findViewById(R.id.video);
+        MediaController mediaController = new MediaController(this.getContext());
+        mediaController.setMediaPlayer(videoView);
+//        videoView.setMediaController(mediaController);
+        videoView.setVideoURI(Uri.parse("android.resource://"+getActivity().getPackageName()+"/"+R.raw.blackbox));
+
+        demo.setOnClickListener(view -> {
+            videoView.start();
+
+        });
+
 
         fastin.setOnClickListener(view -> {
             CallSingleActivity.openActivity(getContext(), "menti", true, getNickName(), false, false);
         });
 
-        tmap.setOnClickListener(view ->{
-//            Intent gogo = new Intent(this, BlackBoxSetting.class);
-            Intent intent = new Intent(getActivity().getApplicationContext(), TmapSetting.class);
-            startActivity(intent);
-        });
+//        tmap.setOnClickListener(view ->{
+////            Intent gogo = new Intent(this, BlackBoxSetting.class);
+//            Intent intent = new Intent(getActivity().getApplicationContext(), TmapSetting.class);
+//            startActivity(intent);
+//        });
 
 //        button.setOnClickListener(view -> {
 //            SocketManager.getInstance().unConnect();

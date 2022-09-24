@@ -44,9 +44,9 @@ public class SettingFragment extends Fragment {
 //        final TextView textView = root.findViewById(R.id.text_notifications);
 //        button = root.findViewById(R.id.exit);
         Button fastin = root.findViewById(R.id.intoroom);
-        Button blackbox = root.findViewById(R.id.blackbox);
+//        Button blackbox = root.findViewById(R.id.blackbox);
         Context mContext;
-        Button tmap = root.findViewById(R.id.tmap);
+//        Button tmap = root.findViewById(R.id.tmap);
 
 
         fastin.setOnClickListener(view -> {
@@ -58,17 +58,17 @@ public class SettingFragment extends Fragment {
 //            SocketManager.getInstance().unConnect();
 //        });
 
-        blackbox.setOnClickListener(view ->{
-//            Intent gogo = new Intent(this, BlackBoxSetting.class);
-            Intent intent = new Intent(getActivity().getApplicationContext(), BlackBoxSetting.class);
-            startActivity(intent);
-        });
+//        blackbox.setOnClickListener(view ->{
+////            Intent gogo = new Intent(this, BlackBoxSetting.class);
+//            Intent intent = new Intent(getActivity().getApplicationContext(), BlackBoxSetting.class);
+//            startActivity(intent);
+//        });
 
-        tmap.setOnClickListener(view ->{
-//            Intent gogo = new Intent(this, BlackBoxSetting.class);
-            Intent intent = new Intent(getActivity().getApplicationContext(), TmapSetting.class);
-            startActivity(intent);
-        });
+//        tmap.setOnClickListener(view ->{
+////            Intent gogo = new Intent(this, BlackBoxSetting.class);
+//            Intent intent = new Intent(getActivity().getApplicationContext(), TmapSetting.class);
+//            startActivity(intent);
+//        });
 
 
 //        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);

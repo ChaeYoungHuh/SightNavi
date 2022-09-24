@@ -34,21 +34,9 @@
 <!--                android:textSize="20sp"-->
 <!--                android:text="실험용"-->
 <!--                />-->
-            <ImageView
-                android:layout_width="225dp"
-                android:layout_height="127dp"
-                android:background="@drawable/logogo"
-                >
-
-            </ImageView>
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/icon" />
 
 
-
-<!--            <TextView-->
+            <!--            <TextView-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="wrap_content"-->
 <!--                android:text="블랙박스"-->
@@ -59,40 +47,14 @@
 
 <!--                android:paddingTop="10dp"-->
 <!--                />-->
-            <Button
-                android:layout_marginTop="20dp"
-                android:id="@+id/blackbox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="블랙박스"
-                android:textSize="20dp"
-                android:background="@color/_xpopup_light_color"
-                android:fontFamily="@font/regularelice"/>
-            <Button
-                android:id="@+id/detect"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="AI 장애물 감지"
-                android:textSize="20dp"
-                android:background="@color/_xpopup_light_color"
-                android:fontFamily="@font/regularelice"/>
-            <Button
-                android:id="@+id/tmap"
-                android:background="@color/_xpopup_light_color"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="네비게이션"
-                android:textSize="20dp"
-                android:fontFamily="@font/regularelice"/>
+
             <Button
 
                 android:id="@+id/intoroom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="원격 접속"
-
+                android:layout_width="240dp"
+                android:layout_height="240dp"
                 android:textSize="20dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/call"
 
                 android:fontFamily="@font/regularelice"/>
 
